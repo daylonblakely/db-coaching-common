@@ -1,10 +1,9 @@
-export enum DrillCategories {
-  Offense = 'Offense',
-  Defense = 'Defense',
-  Rebounding = 'Rebounding',
-  Transition = 'Transition',
-  Passing = 'Passing',
-  BallHandling = 'Ball Handling',
-  Shooting = 'Shooting',
-  Other = 'Other',
-}
+export type DrillCategories =
+  | 'Offense'
+  | 'Defense'
+  | 'Rebounding'
+  | 'Transition'
+  | 'Passing'
+  | 'Ball Handling'
+  | 'Shooting'
+  | 'Other';
