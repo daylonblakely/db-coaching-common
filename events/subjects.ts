@@ -4,4 +4,5 @@ export enum Subjects {
   PracticePlanUpdated = 'practicePlan:updated',
 
   DrillCreated = 'drill:created',
+  DrillUpdated = 'drill:updated',
 }

@@ -6,6 +6,6 @@ export interface PracticePlanCreatedEvent {
   data: {
     id: string;
     title: string;
-    seasonId?: string;
+    userId: string;
   };
 }
