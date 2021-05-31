@@ -19,3 +19,6 @@ export * from './events/base-publisher';
 export * from './events/subjects';
 export * from './events/event-schemas/practice-plan-created-event';
 export * from './events/event-schemas/practice-plan-updated-event';
+
+// Types
+export * from './types/drill-categories';
