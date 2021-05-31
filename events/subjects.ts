@@ -1,5 +1,7 @@
 // channel names
 export enum Subjects {
-  PracticePlanCreated = "practicePlan:created",
-  PracticePlanUpdated = "practicePlan:updated",
+  PracticePlanCreated = 'practicePlan:created',
+  PracticePlanUpdated = 'practicePlan:updated',
+
+  DrillCreated = 'drill:created',
 }
